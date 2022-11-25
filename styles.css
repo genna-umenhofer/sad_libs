@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Custom Properties --- */
+:root {
+  --background-gradient: radial-gradient(50% 50% at 50% 50%, #00484D 0%, #01252F 100%);
+  --cultured: #f0f0f0ff;
+  --light-gray: #d4d4d8ff;
+  --dutch-white: #dfcfa2ff;
+  --deep-space-sparkle: #425f65ff;
+  --space-cadet: #252d54ff;
+  --dark-jungle-green: #001f27ff;
+  --black: #000000ff;
+  --title-font: 'Cormorant Garamond', serif;
+  --body-font: 'Work Sans', sans-serif;
+}
