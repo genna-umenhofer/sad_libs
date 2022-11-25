@@ -19,3 +19,126 @@
   --title-font: 'Cormorant Garamond', serif;
   --body-font: 'Work Sans', sans-serif;
 }
+
+/* --- Global Styles --- */
+.background-container {
+  width: 100vw;
+  height: 100vh;
+  background: var(--background-gradient);
+}
+
+.depressing-img {
+  width: 220px;
+  height: 350px;
+  background-image: url("assets/depressing.jpeg");
+  background-size: 220px 350px;
+}
+
+.spooky-img {
+  width: 220px;
+  height: 350px;
+  background-image: url("assets/spooky.jpeg");
+  background-size: 220px 350px;
+}
+
+.unsettling-img {
+  width: 220px;
+  height: 350px;
+  background-image: url("assets/unsettling.jpeg");
+  background-size: 220px 350px;
+}
+
+.title-text {
+  font-family: var(--title-font);
+  color: var(--light-gray);
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+
+.subtitle-text {
+  font-family: var(--title-font);
+  color: var(--light-gray);
+  font-size: 35px;
+  font-style: italic;
+  color: var(--cultured);
+  text-align: center;
+  margin: 1rem;
+}
+
+.normal-text {
+  font-family: var(--body-font);
+  color: var(--light-gray);
+  font-size: 20px;
+  font-style: normal;
+  color: var(--dutch-white);
+}
+
+.normal-text-bold {
+  font-family: var(--body-font);
+  color: var(--dutch-white);
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--dutch-white);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--deep-space-sparkle);
+  color: var(--cultured);
+  font-family: var(--title-font);
+  font-size: 35px;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+  border: 8px ridge var(--deep-space-sparkle);
+}
+
+button:hover {
+  background-color: var(--space-cadet);
+  border: 8px ridge var(--space-cadet);
+}
+
+button:active {
+  background-color: var(--dutch-white);
+  color: var(--dark-jungle-green);
+  border: 8px ridge var(--dutch-white);
+}
+
+/* --- Category Selection Page --- */
+.category-container {
+  height: 90%;
+  justify-content: center;
+  gap: 3rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+.main-container {
+  height: 70%;
+  align-items: center;
+  
+}
+
+.large-margin {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* --- Navigation --- */
+nav {
+  color: var(--cultured);
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  font-size: 1rem;
+}
